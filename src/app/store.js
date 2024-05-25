@@ -8,7 +8,7 @@ import {currencyFilterReducer} from '../features/currencyFilter/currencyFilterSl
 // Create and export the store here.
 export const store = createStore(
   combineReducers({
-    cartSlice: cartReducer,
-    inventorySlice: inventoryReducer,
+    cart: cartReducer,
+    inventory: inventoryReducer,
     currencyFilter: currencyFilterReducer
 }));
