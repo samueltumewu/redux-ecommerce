@@ -8,7 +8,7 @@ const root = createRoot(document.getElementById('root'));
 // Import the store here.
 // Pass state and dispatch props to the <App /> component.
 const render = () => {
-  console.log("<<store Reducers state: " +JSON.stringify(store.getState()));
+  // console.log("<<store Reducers state: " +JSON.stringify(store.getState()));
   root.render(
     <App 
       state={store.getState()}
